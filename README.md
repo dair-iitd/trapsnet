@@ -16,8 +16,8 @@
 ```sh
 for i in {1..30}
 do
-cp ./TraPSNet/gym/envs/rddl/rddl/lib/clibxx.so ./TraPSNet/gym/envs/rddl/rddl/lib/clibxx$i.so
-cp ./TraPSNet/rddl/lib/clibxx.so ./TraPSNet/rddl/lib/clibxx$i.so
+cp ./gym/envs/rddl/rddl/lib/clibxx.so ./TraPSNet/gym/envs/rddl/rddl/lib/clibxx$i.so
+cp ./rddl/lib/clibxx.so ./TraPSNet/rddl/lib/clibxx$i.so
 done
 ```
 - please see the individual folder on how to run the experiments

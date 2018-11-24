@@ -219,7 +219,7 @@ with tf.device("/cpu:0"):
 with tf.Session(config=config) as sess:
     sess.run(tf.global_variables_initializer())
     train_summary_writer.add_graph(sess.graph)
-    val_summary_writer.add_graph(sess.graph)
+    # val_summary_writer.add_graph(sess.graph)
     coord = tf.train.Coordinator()
 
     if FLAGS.use_pretrained:
